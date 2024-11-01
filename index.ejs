@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermal Printer</title>
+</head>
+<body>
+    <h1>Send Data to Thermal Printer</h1>
+    <form action="/print" method="post">
+        <label for="port">Enter the port number:</label>
+        <input type="number" id="port" name="port" required min="0" max="65535">
+        <button type="submit">Print</button>
+    </form>
+</body>
+</html>
